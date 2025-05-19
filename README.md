@@ -60,3 +60,23 @@ npm run build
     7.3 Constants
 8. Services (Dùng để call api)
 9.
+# Library cần dùng trong dự án 
+- react router
+- tailwindcss
+- redux
+- formix
+- lucide-react(Icon)
+- library UI chưa sử dụng
+- axios (call api - đỡ cực khi sử dụng so với)
+# Kiểm tra thư viện nào bị outdate
+
+``` bash
+npm outdate
+```
+
+``` bash
+npx npm-check-updates -i
+```
+
+# chọn thì nhấn space -> nhấn enter để tiếp tục
+// lưu ý eslint để ý dễ bị lỗi nên hạn chế update phần này
