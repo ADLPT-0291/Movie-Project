@@ -27,3 +27,36 @@ npm i
 # Khởi tạo git
 git init 
 - tạo repositories trên git hub
+# format code
+- sử dụng thư viện prettier
+
+``` bash
+npm i prettier
+```
+- tạo file .prettierrc
+- lên  prettier playground để lấy thông tin cấu hình cho prettier. 
+[prettier playground](https://prettier.io/playground/)
+
+## deploy lên server
+- câu lệnh gì để có thể cài lên thư viện
+``` bash
+npm install
+```
+- câu lệnh gì để build được dự án 
+``` bash
+npm run build
+```
+
+## Tổ chức thư mục
+1. Components
+2. Templates
+3. Pages
+4. Router
+5. Store
+6. Hooks - (Hiện tại ít sử dụng)
+7. Common
+    7.1 Utils 
+    7.2 Helpers
+    7.3 Constants
+8. Services (Dùng để call api)
+9.
